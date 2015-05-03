@@ -19,7 +19,10 @@
         <section class="project csharp partialscripts">
             <h2>Partial Scripts</h2>
             <h3>Modular script rendering.</h3>
-            <code>@Scripts.RenderAll()</code>
+            <code>
+                @Scripts.Include("~/Scripts/jquery-{version}.js") <br />
+                @Scripts.RenderAll()
+            </code>
             <div class="links">
                 <a href="https://github.com/SilentPenguin/PartialScripts">Git</a>
             </div>
