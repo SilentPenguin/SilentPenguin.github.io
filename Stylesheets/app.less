@@ -77,7 +77,6 @@ body {
                     bottom: 25px;
 
                     a {
-                        margin: 4px;
                         display: inline-block;
                         color: rgba(255, 255, 255, 0.9);
                         font-size: 18px;
@@ -85,10 +84,21 @@ body {
                         text-decoration: none;
                         background: rgba(255, 255, 255, 0.15);
                         border: solid 2px rgba(255, 255, 255, 0.25);
-                        border-radius: 2px;
+                        border-left: none;
                         padding: 10px 15px;
 
+                        &:first-child
+                        {
+                            border-left: solid 2px rgba(255, 255, 255, 0.25);
+                            border-top-left-radius: 2px;
+                            border-bottom-left-radius: 2px;
+                        }
 
+                        &:last-child
+                        {
+                            border-top-right-radius: 2px;
+                            border-bottom-right-radius: 2px;
+                        }
 
                         &:hover
                         {
