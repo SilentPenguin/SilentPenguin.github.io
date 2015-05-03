@@ -1,0 +1,118 @@
+﻿* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    display: block;
+    margin: auto;
+    width: 700px;
+
+    nav {
+        color: rgba(255, 255, 255, 0.9);
+        background: #555555;
+        margin: 0px -1000px;
+        border-left: solid 1000px;
+        border-right: solid 1000px;
+        border-color: rgba(255, 255, 255, 0.25);
+        padding: 20px;
+        h2 {
+            font-size: 72px;
+            font-weight: normal;
+        }
+    }
+    
+    article {
+        header {
+            color: rgba(255, 255, 255, 0.9);
+            background: #555555;
+            margin: 0px -1000px;
+            border-left: solid 1000px;
+            border-right: solid 1000px;
+            border-color: rgba(255, 255, 255, 0.25);
+            padding: 20px;
+            h2 {
+                font-size: 32px;
+                font-weight: normal;
+            }
+        }
+        section {
+            padding: 20px;
+            &.project {
+                color: rgba(255, 255, 255, 0.9);
+                position: relative;
+                margin: 0px -1000px;
+                border-left: solid 1000px;
+                border-right: solid 1000px;
+                border-color: rgba(255, 255, 255, 0.25);
+                min-height: 125px;
+
+                h2, h3 {
+                    font-weight: normal;
+                    display: inline-block;
+                }
+
+                h2 {
+                    font-size:48px;
+                    margin-right: 8px;
+                }
+            
+                h3 {
+                    font-size:24px;
+                }
+
+                code {
+                    display: block;
+                    margin: 30px 3px 25px 3px;
+                }
+
+                .links {
+                    display: inline-block;
+                    position: absolute;
+                    right: 25px;
+                    bottom: 25px;
+
+                    a {
+                        margin: 4px;
+                        display: inline-block;
+                        color: rgba(255, 255, 255, 0.9);
+                        font-size: 18px;
+                        font-weight: bold;
+                        text-decoration: none;
+                        background: rgba(255, 255, 255, 0.15);
+                        border: solid 2px rgba(255, 255, 255, 0.25);
+                        border-radius: 2px;
+                        padding: 10px 15px;
+
+                        &:hover
+                        {
+                            background: rgba(255, 255, 255, 0.25);
+                        }
+                    }
+                }
+
+                &.csharp {
+                    &.partialscripts {
+                        background: #178600;
+                    }
+                }
+
+                &.typescript {
+                    &.query {
+                        background: #5A3C7D;
+                    }
+
+                    &.test {
+                        background: #0A50AF;
+                    }
+
+                    &.sockets {
+                        background: #FF9933;
+                    }
+                }
+            }
+        }
+    }
+}
+

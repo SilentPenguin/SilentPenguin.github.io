@@ -18,14 +18,17 @@
     <IISExpressUseClassicPipelineMode />
   </PropertyGroup>
   <ItemGroup>
-    <Content Include="app.css" />
+    <None Include="Stylesheets\app.less" />
     <Content Include="index.html" />
+    <Content Include="Scripts\less-1.5.1.js" />
+    <Content Include="Scripts\less-1.5.1.min.js" />
     <Content Include="web.config" />
   </ItemGroup>
   <ItemGroup>
-    <TypeScriptCompile Include="app.ts" />
+    <TypeScriptCompile Include="Scripts\app.ts" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="packages.config" />
     <None Include="web.Debug.config">
       <DependentUpon>web.config</DependentUpon>
     </None>
@@ -33,6 +36,7 @@
       <DependentUpon>web.config</DependentUpon>
     </None>
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">12.0</VisualStudioVersion>
   </PropertyGroup>
