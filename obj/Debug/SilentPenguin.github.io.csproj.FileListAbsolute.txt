@@ -1,6 +1,0 @@
-c:\users\seppy\documents\visual studio 2013\Projects\TypeScriptHTMLApp1\TypeScriptHTMLApp1\bin\SilentPenguin.github.io.dll.config
-c:\users\seppy\documents\visual studio 2013\Projects\TypeScriptHTMLApp1\TypeScriptHTMLApp1\bin\SilentPenguin.github.io.dll
-c:\users\seppy\documents\visual studio 2013\Projects\TypeScriptHTMLApp1\TypeScriptHTMLApp1\bin\SilentPenguin.github.io.pdb
-c:\users\seppy\documents\visual studio 2013\Projects\TypeScriptHTMLApp1\TypeScriptHTMLApp1\obj\Debug\SilentPenguin.github.io.csprojResolveAssemblyReference.cache
-c:\users\seppy\documents\visual studio 2013\Projects\TypeScriptHTMLApp1\TypeScriptHTMLApp1\obj\Debug\SilentPenguin.github.io.dll
-c:\users\seppy\documents\visual studio 2013\Projects\TypeScriptHTMLApp1\TypeScriptHTMLApp1\obj\Debug\SilentPenguin.github.io.pdb
