@@ -16,7 +16,7 @@ body {
         margin: 0px -1000px;
         border-left: solid 1000px;
         border-right: solid 1000px;
-        border-color: rgba(255, 255, 255, 0.15);
+        border-color: rgba(255, 255, 255, 0.05);
         padding: 20px;
         h2 {
             font-size: 72px;
@@ -31,7 +31,7 @@ body {
             margin: 0px -1000px;
             border-left: solid 1000px;
             border-right: solid 1000px;
-            border-color: rgba(255, 255, 255, 0.15);
+            border-color: rgba(255, 255, 255, 0.05);
             padding: 20px;
             h2 {
                 font-size: 32px;
@@ -46,7 +46,7 @@ body {
                 margin: 0px -1000px;
                 border-left: solid 1000px;
                 border-right: solid 1000px;
-                border-color: rgba(255, 255, 255, 0.15);
+                border-color: rgba(255, 255, 255, 0.05);
                 min-height: 125px;
 
                 h2, h3 {
@@ -79,19 +79,19 @@ body {
 
                     a {
                         display: inline-block;
-                        color: rgba(255, 255, 255, 0.9);
+                        color: white;
                         font-size: 18px;
                         font-weight: bold;
                         text-decoration: none;
-                        border: solid 2px rgba(255, 255, 255, 0.25);
+                        border: solid 1px white;
                         border-left: none;
                         padding: 10px 15px;
-                        transition: background linear 0.5s;
+                        transition: background linear 0.5s, color linear 0.5s;
                         background-clip: padding-box;
 
                         &:first-child
                         {
-                            border-left: solid 2px rgba(255, 255, 255, 0.25);
+                            border-left: solid 1px white;
                             border-top-left-radius: 4px;
                             border-bottom-left-radius: 4px;
                         }
@@ -104,9 +104,9 @@ body {
 
                         &:hover
                         {
-                            background: rgba(255, 255, 255, 0.25);
+                            background: white;
                             background-clip: padding-box;
-                            transition: background linear 0.1s;
+                            transition: background linear 0.1s, color linear 0.1s;
                         }
                     }
                 }
@@ -114,20 +114,32 @@ body {
                 &.csharp {
                     &.partialscripts {
                         background: #178600;
+                        .links a:hover {
+                            color: #178600;
+                        }
                     }
                 }
 
                 &.typescript {
                     &.query {
                         background: #5A3C7D;
+                        .links a:hover {
+                            color: #5A3C7D;
+                        }
                     }
 
                     &.test {
                         background: #0A50AF;
+                        .links a:hover {
+                            color: #0A50AF;
+                        }
                     }
 
                     &.sockets {
                         background: #FF9933;
+                        .links a:hover {
+                            color: #FF9933;
+                        }
                     }
                 }
             }
